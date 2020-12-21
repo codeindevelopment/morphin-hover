@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gooey Text Hover Effect | Demo 1 | codeindev</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="codeinde @codeindev" />
+	
+	<link rel="stylesheet" href="https://use.typekit.net/dba6omz.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+	supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+</head>
+
+<body class="demo-3 loading">
+	<main>
+		<h1 class="title">افکت حرفه ای هاور موس</h1>
+		<div class="text text--menu">&mdash; منو</div>
+		<a class="text text--subscribe" href="http://codeindev.com">آدرس سایت ما</a>
+		<div class="links">
+			<a href="http://instagram.com/codeindev">اینستاگرام ما</a>
+			<a href="https://github.com/codeindevelopment/morphin-hover">گیت هاب پروژه</a>
+		</div>
+		<div class="demos">
+			<a href="index.html" class="demo ">01</a>
+			<a href="index2.html" class="demo">02</a>
+			<a href="index3.html" class="demo demo--current">03</a>
+		</div>
+		<p class="credits">برای ویدئو های جدید پیچ اینستاگرام ما را دنبال کنید </p>
+		<nav class="menu">
+            <a class="menu__item">
+                <svg class="menu__text" viewBox="0 0 100 20" preserveAspectRatio="xMinYMid meet">
+                    <defs>
+                        <filter id="goo-1">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0  
+																			0 1 0 0 0  
+																			1 0 1 0 0  
+																			0 0 0 18 -8" result="goo"></feColorMatrix>
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                        </filter>
+                    </defs>
+                    <g>
+                        <text x="0" y="15">محصول اول</text>
+                        <text x="0" y="15">توضیحات محصول</text>
+                    </g>
+                </svg>
+            </a>
+            <a class="menu__item">
+                <svg class="menu__text" viewBox="0 0 100 20" preserveAspectRatio="xMinYMid meet">
+                    <defs>
+                        <filter id="goo-2">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0  
+																			0 1 0 0 0  
+																			1 0 1 0 0  
+																			0 0 0 18 -8" result="goo"></feColorMatrix>
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                        </filter>
+                    </defs>
+                    <g>
+                        <text x="0" y="15">محصول دوم</text>
+                        <text x="0" y="15">توضیحات محصول</text>
+                    </g>
+                </svg>
+            </a>
+            <a class="menu__item">
+                <svg class="menu__text" viewBox="0 0 100 20" preserveAspectRatio="xMinYMid meet">
+                    <defs>
+                        <filter id="goo-3">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0  
+																			0 1 0 0 0  
+																			1 0 1 0 0  
+																			0 0 0 18 -8" result="goo"></feColorMatrix>
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                        </filter>
+                    </defs>
+                    <g>
+                        <text x="0" y="15">محصول سوم</text>
+                        <text x="0" y="15">توضیحات محصول</text>
+                    </g>
+                </svg>
+            </a>
+            <a class="menu__item">
+                <svg class="menu__text" viewBox="0 0 100 20" preserveAspectRatio="xMinYMid meet">
+                    <defs>
+                        <filter id="goo-4">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"></feGaussianBlur>
+                            <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0  
+																			0 1 0 0 0  
+																			1 0 1 0 0  
+																			0 0 0 18 -8" result="goo"></feColorMatrix>
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+                        </filter>
+                    </defs>
+                    <g>
+                        <text x="0" y="15">محصول چهارم</text>
+                        <text x="0" y="15">توضیحات محصول</text>
+                    </g>
+                </svg>
+            </a>
+        </nav>
+	</main>
+	<script src="js/demo3/index.js"></script>
+</body>
+
+</html>
